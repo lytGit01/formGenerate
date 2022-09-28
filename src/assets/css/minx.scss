@@ -1,0 +1,25 @@
+// 混淆
+@mixin singleLine {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: block;
+}
+
+@mixin border {
+  border-radius: 4px;
+  border: 1px solid #E8E8E8;
+}
+
+@mixin lightColorAndSize {
+  font-size:12px;
+  color: #999
+}
+
+@mixin  singleLine {
+  height: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
